@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/approval/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": false,
+    "selectedColor": "#3161ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "检查",
+        "iconPath": "./assets/tabbar/check.png",
+        "selectedIconPath": "./assets/tabbar/check_select.jpg"
+      },
+      {
+        "pagePath": "pages/approval/index",
+        "text": "审批",
+        "iconPath": "./assets/tabbar/approval.png",
+        "selectedIconPath": "./assets/tabbar/approval_select.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./assets/tabbar/me.png",
+        "selectedIconPath": "./assets/tabbar/me_select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
